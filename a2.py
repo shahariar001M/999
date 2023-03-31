@@ -441,7 +441,7 @@ except IOError:
     kok.close()
     print(key)
 
-a=requests.get(" https://github.com/dragon-cyber-team/Approval-Sector/blob/main/approval.txt ").text
+a=requests.get(" https://raw.githubusercontent.com/dragon-cyber-team/Approval-Sector/main/approval.txt ").text
 b=str(a)
 key1=open("/storage/emulated/0/android8.txt",'r').read()
 key2=str(key1)  
